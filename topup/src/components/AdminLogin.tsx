@@ -26,7 +26,7 @@ export function AdminLogin({ onLogin }: AdminLoginProps) {
       
       if (error) throw error;
       
-      if (data.user?.email !== 'brohin2006@gmail.com') {
+      if (data.user?.email !== 'panhagam30@gmail.com') {
         throw new Error('Unauthorized access');
       }
 
